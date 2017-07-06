@@ -14,9 +14,8 @@ public class Property {
 
 	private Player _owner = null;
 
-
 	public bool hasOwner(){
-		if (!_owner) {
+		if (_owner == null) {
 			return false;
 		} else {
 			return true;
